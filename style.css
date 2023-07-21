@@ -3,11 +3,16 @@
   margin: 0px;
   box-sizing: border-box;
 }
+body{
+  background-color: #36454F;
+  color: white;
+}
 .container{
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
+
 .playerDiv{
   display: flex;
   flex-direction: column;
@@ -37,42 +42,36 @@
   /* border: 1px solid black; */
   margin-bottom: 15px;
 }
-.attack{
-  margin-bottom: 15px;
-}
-.heal{
-  margin-bottom: 15px;
-}
-.health{
-  margin-bottom: 15px;
-}
+
 
 .attack,.heal{
   font-size: 1.2rem;
 }
 .health{
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 800;
+  margin-bottom: 15px;
 }
 .btn{
-  width: 100px;
+  width: fit-content;
   padding: 10px;
   font-size: 1.2rem;
-  font-weight: 400;
   cursor: pointer;
   box-shadow: none;
   border-radius: 10px;
+  background-color: green;
+  color: white;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.attackHeal{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 #simulate{
   margin: auto 0px;
   padding: 0.5%;
   /* border: 1px solid black; */
   width: 10%;
-}
-#simulatebtn{
-background-color: green;
-color: white;
-font-weight: 900;
-font-size: 1.5rem;
-width: fit-content;
 }
