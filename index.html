@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Super Hero Game</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="playerDiv"id="player1div">
+      <div class="name" id="p1Name">Player1</div>
+      <div class="image" id="p1Image"><img src="images/ironman.jpeg" alt="ironman.jpeg"></div>
+      <div class="attack" id="p1Attack">Press Q: <button class="btn">Attack</button></div>
+      <div class="heal" id="p1Heal">Press A: <button class="btn">Heal</button></div>
+      <div class="health" id="p1Health">100</div>
+    </div>
+    <div id="simulate"><button class="btn" id="simulatebtn">Simulate</button></div>
+    <div class="playerDiv" id="player2div">
+      <div class="name" id="p2Name">Player2</div>
+      <div class="image" id="p2Image"><img src="images/thanos.jpeg" alt="thanos.jpeg"></div>
+      <div class="attack" id="p2Attack">Press P: <button class="btn">Attack</button></div>
+      <div class="heal" id="p2Heal">Press L: <button class="btn">Heal</button></div>
+      <div class="health" id="p2Health">100</div>
+    </div>
+    <br>
+  </div>
+  <div id="result"></div>
+  <div id="resetDiv"><button class="btn" id="reset">Reset</button></div>
+
+  
+  <audio src="sounds/heal.mp3" id="heal" style="display: none;"></audio>
+<audio src="sounds/fastheal.mp3" id="fastheal" style="display: none;"></audio>
+<audio src="sounds/punch.mp3" id="punch" style="display: none;"></audio>
+<audio src="sounds/fastpunch.mp3" id="fastpunch" style="display: none;"></audio>
+<audio src="sounds/victory.mp3" id="victory" style="display: none;"></audio>
+  <script src="script.js"></script>
+</body>
+
+</html>

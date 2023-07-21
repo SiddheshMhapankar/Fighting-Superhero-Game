@@ -1,0 +1,78 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.playerDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  /* border: 1px solid black; */
+}
+#resetDiv,#result{
+  width: 50%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  margin: 0px 25%;
+  padding: 15px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform:uppercase;
+}
+.name{
+  margin: 15px 0px;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform:uppercase;
+}
+.image img{
+  height: 250px;
+  /* border: 1px solid black; */
+  margin-bottom: 15px;
+}
+.attack{
+  margin-bottom: 15px;
+}
+.heal{
+  margin-bottom: 15px;
+}
+.health{
+  margin-bottom: 15px;
+}
+
+.attack,.heal{
+  font-size: 1.2rem;
+}
+.health{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.btn{
+  width: 100px;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: none;
+  border-radius: 10px;
+}
+#simulate{
+  margin: auto 0px;
+  padding: 0.5%;
+  /* border: 1px solid black; */
+  width: 10%;
+}
+#simulatebtn{
+background-color: green;
+color: white;
+font-weight: 900;
+font-size: 1.5rem;
+width: fit-content;
+}
